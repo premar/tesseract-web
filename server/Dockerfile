@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+RUN apt-get update
 RUN apt-get install -y python3-pip python3-dev build-essential
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y install tesseract-ocr
 COPY /src/ /app/
