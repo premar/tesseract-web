@@ -1,5 +1,7 @@
 # tesseract-web
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 Docker image with python flask serving as API and tesseract-ocr software. Simply send an image and tesseract will return the text inside the image.
 
 ### Getting Started
